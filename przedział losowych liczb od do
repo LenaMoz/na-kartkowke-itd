@@ -1,0 +1,7 @@
+import random
+los = []
+while len(los) != 20:
+    rnd = random.randint(100,200)
+    if rnd % 5 != 0:
+        los.append(rnd)
+print(los)
